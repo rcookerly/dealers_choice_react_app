@@ -1,0 +1,39 @@
+{
+  "name": "dealers_choice_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:dev": "npm run build -- --watch --mode=development",
+    "start:dev": "npm run build:dev & nodemon server --ignore public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcookerly/dealers_choice_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcookerly/dealers_choice_react/issues"
+  },
+  "homepage": "https://github.com/rcookerly/dealers_choice_react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-beta.1"
+  }
+}
